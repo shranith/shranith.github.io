@@ -4,14 +4,13 @@ title: Cusine Classification
 feature-img: "assets/img/quantization/cover.png"
 tags: [Google-colab, kaggle]
 ---
-# Welcome to Cusine Classification problem.
+# Classify Cusine based on ingredients
 
 This is one of the kaggle
 challenges , refer  [this link](https://www.kaggle.com/c/whats-cooking/data) for
 more info on challenge
 
-Run Ipynb on [Google-colab] (https://colab.research.google.com/github/shranith/Colab-
-intro/blob/master/Cuisine_classification.ipynb)
+Run [Ipynb](https://colab.research.google.com/github/shranith/Colabintro/blob/master/Cuisine_classification.ipynb) on Google-colab
 
 Details
 
