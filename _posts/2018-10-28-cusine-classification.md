@@ -19,20 +19,19 @@ Training data consists of id, cuisine and ingredients
 
 ```json
 {
- "id": 24717,
+"id": 24717,
 "cuisine": "indian",
- "ingredients": [
-     "tumeric",
-     "vegetable stock",
-"tomatoes",
-     "garam masala",
-     "naan",
-     "red lentils",
-     "red
-chili peppers",
-     "onions",
-     "spinach",
-     "sweet potatoes"
+"ingredients": [
+    "tumeric",
+    "vegetable stock",
+    "tomatoes",
+    "garam masala",
+    "naan",
+    "red lentils",
+    "red chili peppers",
+    "onions",
+    "spinach",
+    "sweet potatoes"
  ]
  }
 
@@ -41,16 +40,16 @@ chili peppers",
 Test data consistst of id and ingredients and we are expected to predict the
 cuisine
 
-``` bash
+``` json
 {
-'id': 41580, 
-'ingredients': [
-    'sausage links',
-'fennel bulb',
-     'fronds',
-     'olive oil',
-     'cuban peppers',
-'onions'
+"id": 41580, 
+"ingredients": [
+    "sausage links",
+    "fennel bulb",
+    "fronds",
+    "olive oil",
+    "cuban peppers",
+    "onions"
 ]
 }
 
