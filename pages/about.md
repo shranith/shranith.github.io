@@ -7,7 +7,7 @@ feature-img: "assets/img/about.png"
 
 <center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%"></center>
 
-## Manas Sahni
+## Shranith Linga
 {:style="text-align:center"}
 
 
