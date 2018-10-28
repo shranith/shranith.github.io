@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # About me
 
 I am currently working as a Machine Learning Engineer with IBM Watson Natural Language Understanding. On a day to day basis my focus is supporting and expanding the service into new languages and new features.
@@ -14,9 +13,3 @@ Operating Systems- Linux/Ubuntu, MacOS
 * Getting started with Google Colab - An introductory [tutorial](https://gist.github.com/shranith/62269d31a2cf39f4d10f79224a86e70c) on Google Colab how to
 
 * Cusine Classification - A google colab [notebook](https://gist.github.com/shranith/6b7fb21df2b5530841148e7fdc53dbcc) on how to classify a recipe based on ingredients using Logistic Regression and Word Embeddings
-
-=======
-# efficieNN | sahnimanas.github.io
-
-Repository for efficieNN, my blog on mobile-optimized efficient neural networks.
->>>>>>> new_layout
