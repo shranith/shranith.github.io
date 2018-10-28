@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Introduction to Google Colab
-thumbnail: ""
 feature-img: "assets/img/quantization/cover.png"
 tags: [quantization, tf-lite]
 ---
