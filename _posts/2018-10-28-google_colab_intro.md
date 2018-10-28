@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Google Colab
 feature-img: "assets/img/quantization/cover.png"
-tags: [quantization, tf-lite]
+tags: [Google-colab]
 ---
 ### Introduction to Google Colab Notebooks
 {: style="text-align: center"}
