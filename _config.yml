@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-theme: jekyll-theme-slate
-title: [Shranith Linga]
-description: [I like to write on various techniques and tools in the land of NLP and Machine Learning]
-=======
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://shranith.github.io"
 name: Machine learning with Shranith
 title: ML with Shranith | shranith.github.io # site's title
-description: "ML paradigms in NLP"
+description: "I like to write on various techniques and tools in the land of NLP and Machine Learning"
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -65,7 +60,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: "UA-121432719-1" # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: "sahnimanas-github-io"
+  disqus_shortname: "shranith-github-io"
   katex: true # Enable if using math markup
   
   special_page:
