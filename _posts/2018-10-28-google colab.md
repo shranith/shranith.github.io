@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Making Neural Nets Work With Low Precision
-thumbnail: "assets/img/quantization/pacman.jpg"
+title: Introduction to Google Colab
+thumbnail: ""
 feature-img: "assets/img/quantization/cover.png"
 tags: [quantization, tf-lite]
 ---
