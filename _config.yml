@@ -59,7 +59,7 @@ theme_settings:
     email: true
 
   # Scripts / Features 
-  google_analytics: "" # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-128250492-1" # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname: "shranith-github-io"
   katex: true # Enable if using math markup
   
