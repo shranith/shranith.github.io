@@ -9,7 +9,7 @@ description: "I like to write on various techniques and tools in the land of NLP
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: efficieNN # blog's title
+  title: MLS # blog's title
   avatar: assets/img/triangle.svg # TODO
   favicon: assets/favicon.ico	  # TODO
   gravatar: # Email MD5 hash
