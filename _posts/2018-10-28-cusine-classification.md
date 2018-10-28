@@ -2,7 +2,7 @@
 layout: post
 title: Cusine Classification
 feature-img: "assets/img/quantization/cover.png"
-tags: [Google-colab, kaggle]
+tags: [kaggle, word-embeddings, logistic-regressions]
 ---
 # Classify Cusine based on ingredients
 
@@ -67,7 +67,6 @@ gensim using `pip3`
 
 ```bash
 !pip3 install gensim
-
 ```
 
 ```python
@@ -82,7 +81,6 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
-
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -132,14 +130,12 @@ print('cuisine: {}'.format(data['cuisine'].iloc[index]))
 
 ```python
 #load target labels to predict
-
 target = data.cuisine
 ```
 
 ```python
 # Assign a new column to have the counts of each ingredients
 data['ingredient_count'] = data.ingredients.apply(lambda x: len(x))
-
 
 def flatten_lists(lst):
     """Remove nested lists."""
@@ -176,7 +172,6 @@ w2v = gensim.models.Word2Vec(list(data.ingredients), size=350, window=10, min_co
 
 ```python
 # most similar word
-
 w2v.most_similar(['meat'])
 ```
 
@@ -268,7 +263,6 @@ print('Cusine ',predict(ingredient_list))
 ```bash
 # !ls -alh
 !ls gdrive/My\ Drive/
-
 ```
 
 ```python
@@ -283,13 +277,4 @@ print(y_pred)
 test_id = [id_ for id_ in test.id]
 sub = pd.DataFrame({'id': test_id, 'cuisine': y_pred}, columns=['id', 'cuisine'])
 sub.to_csv(path + '/'+'clf_output.csv', index=False)
-```
-
-```bash
-!ls
-
-```
-
-```bash
-!cat clf_output.csv
 ```
