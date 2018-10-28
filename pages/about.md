@@ -5,12 +5,24 @@ permalink: /about/
 feature-img: "assets/img/about.png"
 ---
 
-<center><img src="{{site.baseurl}}/assets/img/manas.jpg" width="50%"></center>
+<center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%"></center>
 
 ## Manas Sahni
 {:style="text-align:center"}
 
-Software Engineer in Machine Learning at Samsung R&D; Math & CS grad from Delhi Technological University.
 
-I like to learn new things & explain them, and talk people's ear off about work I find interesting.
-This blog, efficieNN, is where I'll be writing about things I've been exploring in the world of mobile-optimized neural networks.
+# About me
+
+I am currently working as a Machine Learning Engineer with IBM Watson Natural Language Understanding. On a day to day basis my focus is supporting and expanding the service into new languages and new features.
+
+Self-motivated linguist with a strong, diverse background in linguistics and cognitive science. Areas of interest include natural language processing with Deep Learning, textual sentiment analysis, machine learning methods in linguistics; hoping to direct my skills towards improving the ways humans interact with technology. 
+
+Skill Set:
+Languages - C++, Python, Java, Elixir
+Tools- Tensorflow, NLTK, Git
+Operating Systems- Linux/Ubuntu, MacOS
+
+# Articles
+* Getting started with Google Colab - An introductory [tutorial](https://gist.github.com/shranith/62269d31a2cf39f4d10f79224a86e70c) on Google Colab how to
+
+* Cusine Classification - A google colab [notebook](https://gist.github.com/shranith/6b7fb21df2b5530841148e7fdc53dbcc) on how to classify a recipe based on ingredients using Logistic Regression and Word Embeddings

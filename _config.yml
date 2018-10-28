@@ -2,8 +2,8 @@
 baseurl: ""
 url: "https://shranith.github.io"
 name: Machine learning with Shranith
-title: ML with Shranith | shranith.github.io # site's title
-description: "I like to write on various techniques and tools in the land of NLP and Machine Learning"
+title: ML with Shranith # site's title
+description: ""
 
 
 # THEME-SPECIFIC CONFIGURATION
