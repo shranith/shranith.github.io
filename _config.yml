@@ -2,14 +2,14 @@
 baseurl: ""
 url: "https://shranith.github.io"
 name: Machine learning with Shranith
-title: ML with Shranith # site's title
+title: Machine Learning with Shranith # site's title
 description: ""
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: MLS # blog's title
+  title: MLwS # blog's title
   avatar: assets/img/triangle.svg # TODO
   favicon: assets/favicon.ico	  # TODO
   gravatar: # Email MD5 hash
