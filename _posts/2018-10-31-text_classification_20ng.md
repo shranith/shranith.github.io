@@ -6,10 +6,9 @@ tags: [Google-colab, 20ng, tensorflow, estimators]
 ---
 ### Building a text classification model with TF Hub
 {: style="text-align: center"}
-<a href="https://colab.research.google.com/github/shranith/ML-
-notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img
-src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In
-Colab"/></a>
+
+<a href="https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 
 # Building a text classification model with TF Hub
 
