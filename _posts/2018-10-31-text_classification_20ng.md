@@ -1,3 +1,9 @@
+---
+layout: post
+title: Text Classification on 20 ng dataset
+feature-img: "assets/img/quantization/cover.png"
+tags: [Google-colab, 20ng, tensorflow, estimators]
+---
 <a href="https://colab.research.google.com/github/shranith/ML-
 notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img
 src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In
