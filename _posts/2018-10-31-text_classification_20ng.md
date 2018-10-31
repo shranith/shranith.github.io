@@ -87,13 +87,6 @@ test_category = category[train_size:]
 print(test_category)
 ```
 
-### Formatting our labels
-When we train our model we'll provide the labels (in
-this case genres) associated with each movie. We can't pass the genres in as
-strings directly, we'll transform them into multi-hot vectors. Since we have 9
-genres, we'll have a 9 element vector for each movie with 0s and 1s indicating
-which genres are present in each description.
-
 ```python
 encoder = LabelEncoder()
 encoder.fit_transform(train_category)
@@ -101,7 +94,7 @@ train_encoded = encoder.transform(train_category)
 test_encoded = encoder.transform(test_category)
 num_classes = len(encoder.classes_)
 
-# Print all possible genres and the labels for the first movie in our training dataset
+# Print all possible classes and the labels for the first movie in our training dataset
 print(encoder.classes_)
 print(train_encoded[0])
 ```
@@ -168,7 +161,7 @@ estimator.evaluate(input_fn=eval_input_fn)
 ## Generating predictions on new data
 Now for the most fun part! Let's generate
 predictions on random descriptions our model hasn't seen before. We'll define an
-array of 3 new description strings (the comments indicate the correct genres)
+array of 3 new description strings (the comments indicate the correct classes)
 and create a `predict_input_fn`. Then we'll display the top 2 categories along
 with their confidence percentages for each of the 3 descriptions
 
