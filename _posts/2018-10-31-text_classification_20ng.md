@@ -9,9 +9,6 @@ tags: [Google-colab, 20ng, tensorflow, estimators]
 
 <a href="https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
-# Building a text classification model with TF Hub
-
 In this notebook, we'll walk
 you through building a model to predict the class of a document given its
 description into one of the 20 new group classes. The emphasis here is not on
