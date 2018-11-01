@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+# title: About
 # permalink: /about/
 feature-img: "assets/img/shranith.png"
 ---
 
-<!-- <center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%" height="25%"></center> -->
+<center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%" height="25%"></center>
 
 ## Shranith Linga
 {:style="text-align:center"}
