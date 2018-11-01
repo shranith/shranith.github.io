@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+# permalink: /about/
 feature-img: "assets/img/shranith.png"
 ---
 
@@ -25,4 +25,4 @@ Operating Systems- Linux/Ubuntu, MacOS
 # Articles
 * Getting started with Google Colab - An introductory [tutorial](https://gist.github.com/shranith/62269d31a2cf39f4d10f79224a86e70c) on Google Colab how to
 
-* Cusine Classification - A google colab [notebook](https://gist.github.com/shranith/6b7fb21df2b5530841148e7fdc53dbcc) on how to classify a recipe based on ingredients using Logistic Regression and Word Embeddings
+* Cusine Classification - A google colab [notebook](https://gist.github.com/shranith/6b7fb21df2b5530841148e7fdc53dbcc) on how to classify a recipe based on ingredients using Logistic Regression and Word Embeddingsgi
