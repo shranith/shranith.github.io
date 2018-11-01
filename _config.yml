@@ -10,7 +10,7 @@ description: ""
 theme_settings:
   # Meta
   title: MLwS # blog's title
-  avatar: assets/img/triangle.svg # TODO
+  avatar: assets/img/logo.jpg # TODO
   favicon: assets/favicon.ico	  # TODO
   gravatar: # Email MD5 hash
 
