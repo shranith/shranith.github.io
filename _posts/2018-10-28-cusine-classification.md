@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cusine Classification
-feature-img: "assets/img/quantization/cover.png"
+feature-img: "assets/img/national_park/grand_prismatic.jpg"
 tags: [kaggle, word-embeddings, logistic-regressions]
 ---
 # Classify Cusine based on ingredients
