@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "assets/img/about.png"
 ---
 
-<center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%" height="50%"></center>
+<center><img src="{{site.baseurl}}/assets/img/shranith.jpg" width="50%" height="25%"></center>
 
 ## Shranith Linga
 {:style="text-align:center"}
