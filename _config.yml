@@ -11,7 +11,7 @@ theme_settings:
   # Meta
   title: MLwS # blog's title
   avatar: assets/img/flip_logo3.png # TODO
-  favicon: assets/favicon.ico	  # TODO
+  favicon: assets/img/favicon.ico	  # TODO
   gravatar: # Email MD5 hash
 
   # Header and footer text
