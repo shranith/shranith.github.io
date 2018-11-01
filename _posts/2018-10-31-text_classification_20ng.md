@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Text Classification on 20 ng dataset
-feature-img: "assets/img/quantization/cover.png"
+feature-img: "assets/img/national_park/jackson_hole.jpg"
 tags: [Google-colab, 20ng, tensorflow, estimators]
 ---
 ### Building a text classification model with TF Hub
