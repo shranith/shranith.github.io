@@ -9,17 +9,44 @@ tags: [Google-colab, 20ng, tensorflow, estimators]
 
 <a href="https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-In this notebook, we'll walk
-you through building a model to predict the class of a document given its
-description into one of the 20 new group classes. The emphasis here is not on
-accuracy, but instead how to use TF Hub layers in a text classification model.
-The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup
-documents, partitioned (nearly) evenly across 20 different newsgroups. To the
-best of my knowledge, it was originally collected by Ken Lang, probably for his
-Newsweeder: Learning to filter netnews paper, though he does not explicitly
-mention this collection. The 20 newsgroups collection has become a popular data
-set for experiments in text applications of machine learning techniques, such as
-text classification and text clustering.
+Before jumping into the content the above photo is from Jackson Hole, Wyoming. If you are around Colorado, Wyoming, Utah then this one of the nice place for skiing ⛷
+
+You can run the following notebook completely on Google Colab, If you are not familiar to my intro (tutorial)[https://shranith.github.io/2018/10/28/google_colab_intro.html] on Google Colab
+What are we gonna talk about today ?
+
+* Text Classification
+* 20 NG Dataset
+* TF Hub and TF Estimators
+
+Text Classification is essentially classifying a piece of text in to classes. There are broadly two ways one can approach the problem, supervised vs unsupervised depending on the availability of dataset. In both the approaches there are many ways one can classify the text. Today we are gonna look at one possiible approach using the tensorflow hub. The emphasis here is not on accuracy, but instead how to use TF Hub and TF Estimators in a text classification model.
+
+The dataset I chose is 20 Newsgroups data set, is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. To the best of my knowledge, it was originally collected by Ken Lang, probably for his Newsweeder: Learning to filter netnews paper, though he does not explicitly mention this collection. The 20 newsgroups collection has become a popular dataset for experiments in text applications of machine learning techniques, such as text classification and text clustering.
+
+TensorFlow Hub is a library for the publication, discovery, and consumption of reusable parts of machine learning models. A module is a self-contained piece of a TensorFlow graph, along with its weights and assets, that can be reused across different tasks in a process known as transfer learning.
+Transfer learning can
+
+* Train a model with a smaller dataset,
+* Improve generalization, and
+* Speed up training.
+
+Estimators are highlevel abstractions provided by tensorflow and  simplifies training, evaluation, prediction, export for serving. One can use the prebuilt estimators or create their own custom estimator
+
+Estimators provide the following benefits:
+
+* You can run Estimator-based models on a local host or on a distributed multi-server environment without changing your model. Furthermore, you can run Estimator-based models on CPUs, GPUs, or TPUs without recoding your model.
+* Estimators simplify sharing implementations between model developers.
+* You can develop a state of the art model with high-level intuitive code. In short, it is generally much easier to create models with Estimators than with the low-level TensorFlow APIs.
+* Estimators are themselves built on tf.keras.layers, which simplifies customization.
+* Estimators build the graph for you.
+* Estimators provide a safe distributed training loop that controls how and when to:
+  * build the graph
+  * initialize variables
+  * load data
+  * handle exceptions
+  * create checkpoint files and recover from failures
+  * save summaries for TensorBoard
+
+**NOTE** When writing an application with Estimators, you must separate the data input pipeline from the model. This separation simplifies experiments with different data sets.
 
 To start, import the necessary
 dependencies for this project.
