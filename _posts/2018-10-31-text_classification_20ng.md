@@ -49,6 +49,8 @@ Estimators provide the following benefits:
 
 **NOTE** When writing an application with Estimators, you must separate the data input pipeline from the model. This separation simplifies experiments with different data sets.
 
+## Lets get to the code
+
 To start, import the necessary
 dependencies for this project.
 
@@ -67,35 +69,33 @@ from sklearn.preprocessing import LabelEncoder
 print(tf.__version__)
 ```
 
+One can download the 20NG dataset from [here](http://qwone.com/~jason/20Newsgroups/20news-19997.tar.gz) however I pre-processed and saved it as csv file in a shared [google-drive](https://drive.google.com/drive/folders/1xaQS8KsGWu7eQSZVcVYkNjFmmTaSXgpr?usp=sharing)
+
+Mount the google drive folder and load the csv file
+
 ```python
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
 
 ```python
-# Anyone can add the 20ng preprocessed dataset into csv format from google drive here https://drive.google.com/drive/folders/1xaQS8KsGWu7eQSZVcVYkNjFmmTaSXgpr?usp=sharing
-
 data = pd.read_csv('/content/gdrive/My Drive/20ng/20news-bydate-train.csv')
 print(data.head())
 
 descriptions = data['text']
 category = data['category']
-
-
 category[:10]
-
 ```
 
 ```python
-type(descriptions)
 descriptions[:10]
-
 print(type(category[1]))
 type(category)
 
 ```
 
 ### Splitting our data
+
 When we train our model, we'll use 80% of the data for
 training and set aside 20% of the data to evaluate how our model performed.
 
