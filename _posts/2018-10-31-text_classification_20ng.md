@@ -9,7 +9,7 @@ tags: [Google-colab, 20ng, tensorflow, estimators]
 
 Before jumping into the content the above photo is from Jackson Hole, Wyoming. If you are around Colorado, Wyoming, Utah then this one of the nice place for skiing ⛷
 
-**NOTE** You can run the following code as a python notebook on Google Colab, If you are not familiar with Google colab here is a link to an intro [tutorial](https://shranith.github.io/2018/10/28/google_colab_intro.htm)] I made on how to use it.
+**NOTE** You can run the following code as a python notebook on Google Colab, If you are not familiar with Google colab here is a link to an intro [tutorial](https://shranith.github.io/2018/10/28/google_colab_intro.htm) I made on how to use it.
 
 <a href="https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
